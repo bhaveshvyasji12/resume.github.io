@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/style.css">
+</head>
+<body onload="slider('dear')" >
+  <div class="slider">
+    <div class="dear">
+    <img src="/HTML/premium_photo-1678565869434-c81195861939.avif" id="imgdo">
+  </div>
+  <div class="ovesome">
+    <div class="navbar">
+      <div class="logo">
+        <img src="">
+      </div>
+      <div class="contect">
+        <h1>LET'S START TO CREATE TO RESUME</h1>
+        <h3>Use professional field-tested resume templates that follow the exact ‘resume rules’ employers look for. 
+          Easy to use and done within minutes - try now for free!</h3>
+      <div ><a href="/HTML/deti/fo.html">
+        <button type="button" >Create resume</button></a>
+        <button type="button"class="btn-2">Use template </button>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>  
+    <script>
+      
+     var imgd = document.getElementBYld("imgdo");
+     var images = new Array (
+       "HTML/img1.jpg",
+       "HTML/img2.jpg",
+       "HTML/img3.jpg",
+     );
+      var len = images.length;
+    var i=0;
+     function slider(){
+      if(i>len-1){
+        i=0;
+      }
+      imgdo.src =images[i];
+      i++;
+      setTimeout('slider()',3000);
+     }
+    </script>
+</body>
+</html>

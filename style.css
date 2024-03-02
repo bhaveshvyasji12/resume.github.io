@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.slider
+{
+  width: 100%;
+  height: 100vh;  
+  position: relative;
+  overflow: hidden;
+}
+.dear
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+#imgdo{
+width: 100%;
+height: 100%;
+animation: zoom 3s linear infinite;
+}
+@keyframes zoom{
+   0%{
+    transform: scale(1.3);
+   } 
+   15%{
+    transform: scale(1);
+   } 
+   80%{
+    transform: scale(1);
+   } 
+   100%{
+    transform: scale(1.3);
+   } 
+}
+.ovesome{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba (0,0,0,0.9));
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    width:67;
+    display:flex;
+    align-items: center;
+   margin: 36px  auto;
+}
+.logo {
+     flex-basis: 23px;
+}
+.logo img{
+    width:120px;
+border-radius: 23px;
+    cursor: pointer;
+}
+
+.contect{
+    width :60%;
+    margin: 150px auto 0;
+     text-align: center;
+     color:rgba(230, 230, 224, 0.768);
+}
+.contect h1{
+    font-size:40px;
+}
+.contect h3{
+width : 80%;
+margin: 20px auto 100px;
+font-weight: 100;
+line-height:23px;
+color: rgb(236, 4, 4);
+
+}
+button {
+     width:200px;
+    padding : 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 23px;
+    font-weight: bold;
+    border:2px solid;
+    background: #fe5456;
+    color:#fff;
+    cursor: pointer;
+     transition:  0.6;
+}
+button :hover{
+    background: 0.6;
+    border:2px solid #fff;
+}
+.btn-2{
+    border:2px solid#fff;
+    background: transparent;
+}
+.btn-2:hover{
+    border:2px solid rgb(252, 160, 40) ;
+    background: rgb(252, 160, 40);
+}

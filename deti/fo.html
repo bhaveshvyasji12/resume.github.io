@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .fixform{
+        width: 370px;
+        padding:56px,56px,56px;
+        margin:auto;
+        margin-top:100px;
+        font-size:12px;
+        border-radius: 4px;
+        text-align:justify;
+        background:rgba(46, 31, 12, .3);
+      
+      }
+      
+      input[type=text], select {
+        width: 98%;
+        padding: 12px 50px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=email], select {
+        width: 98%;
+        padding: 12px 10px;
+        padding-right: 52px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 98%;
+        background-color: #0d0e0d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #eb910b;
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      label,textarea{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+      }
+     
+
+      </style>
+</head>
+<body style="background-image: url('/HTML/deti/student-849825_1280.jpg');">
+    <div class="fixform">
+
+    <form >
+      
+        <label for="fname">Full NAME</label>
+        <br>
+        <input type="text" id="fname" name="firstname"  required>
+        <br>
+   
+        <label for="fname">ADDRESS</label>
+        <br>
+        <input type="text" id="fname" name="firstname"  required>
+        <br>
+    
+        <label for="lname">PHONE Number</label>
+        <br>
+        <input type="text" id="lname" name="lastname" required>
+        <br>
+
+        <label for="email">GMAIL</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="lname">Language</label>
+        <br>
+        <input type="text" id="lname" name="lastname" required>
+        <br>
+
+
+        <label for ="GENDER">Gender</label>
+        <br>
+        <select id="GENDER" NAME="GENDER">
+            <option value="male">Male</option>
+            <option value="male">Female</option>
+            <option value="other">other</option>
+        </select>
+        <br>
+        <label for ="GENDER">SKILL</label>
+        <br>
+        <select id="GENDER" NAME="GENDER">
+            <option value="male">ms office</option>
+            <option value="male">Good commication</option>
+            <option value="other">WEB DEVLOPER</option>
+        </select>
+        <br>
+        <label for="lname">CRETIFICATES</label>
+        <br>
+        <input type="text" id="lname" name="lastname" required>
+        <br>
+        <label for="EX">Experience</label>
+        <br>
+        <select id="GENDER" NAME="GENDER">
+          <option value="fresher">Fresher</option>
+          <option value="6m-1">6m-1year</option>
+          <option value="1-5">1-5 year</option>
+          <option value="10+year">10+</option>
+      </select>
+      <br>
+      <label for="Intership">Intership</label>
+      <br>
+      
+      <textarea id="INTERSHIP" name="Intership" rows="3" cols="26"></textarea>
+ <br>
+        <input type="submit" value="Submit">
+      
+      </form>
+    </div>
+</body>
+</html>
